@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Foro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body style="background-color: pink;">
+<center>
+     
+        <h1>Hablemos Sabiendo </h1>
+        <br>
+</center>
+<header id="mainheader">
+  <nav class="navbar">
+    <div class="container-1" style="background-color:darksalmon;">
+      <ul style="align-items:flex-start;">
+        <li><a href="#">Registro de Usuarios</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Quienes Somos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+      <br>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <a href="#">
+          <div class="card h-100">
+            <img src="imagenes/dinero.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Foro de Inversores</h5>
+              <p class="card-text">Pensado para dueños de negocios, gente que busca nuevas oportunidades, Historias de vida, para generar amistades</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Entrar</small>
+            </div>
+          </div>
+          </a>
+        </div>
+        
+        <div class="col">
+          <a href="#">
+          <div class="card h-100">
+            <img src="imagenes/programacion.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Foro de Progrmadores</h5>
+              <p class="card-text">En este foro hablaremos de distintos lenguajes dentro de la programacion.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Entrar</small>
+            </div>
+          </div>
+          </a>
+        </div>
+        <div class="col">
+          <a href="#">
+          <div class="card h-100">
+            <img src="imagenes/psicologia.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Foro de Psicologia</h5>
+              <p class="card-text">Temas de la psicologia que ayudrn a la comunidad; situciones y reflexiones de la vid misma para la motivacion</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary">Entrar</small>
+            </div>
+          </div>
+        </div>
+        </a>
+      </div>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">N°</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Fernandez</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Acosta</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <table class="table">
+        <thead class="thead-light">
+          <tr>
+            <th scope="col">N°</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Burtton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>Mercedez</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+      <footer style="background-color: blueviolet;">
+        <center>
+        <div class="container">
+          <div class="row">
+          <div class="col-md-12">
+          <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/Evanshiga" target="_blank">
+              <i class="bi bi-facebook">Facebook</i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/MaylopLo40131111?s=09" target="_blank">
+            <i class="bi bi-twitter">Twiter</i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://instagram.com/maylop2015?igshid=MzNINGNkZWQ4Mg==" target="_blank">
+          <i class="bi bi-instagram">Instagram</i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/mayra-lopez-25b5561a4" target="_blank">
+          <i class="bi bi-linkedin">linkedin</i>
+            </a>
+          </li>
+          </ul>
+          </div>
+          </div>
+        </center>
+          <div class="row">
+          <div class="col-md-12">
+          <p class="text-center">Creacion de Lopez Mayra Website 2023</p>
+          </div>
+          </div>
+        </div>
+        
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>  
+</body>
+</html>
